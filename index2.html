@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Website</title>
+  <style>
+    /* Gallery Section */
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    .gallery-item {
+      width: 300px;
+      margin: 10px;
+      overflow: hidden;
+      position: relative;
+    }
+    .gallery-item img {
+      width: 100%;
+      height: auto;
+      transition: transform 0.3s ease;
+    }
+    .gallery-item:hover img {
+      transform: scale(1.1);
+    }
+    /* About Us Section */
+    .about-us {
+      display: flex;
+    }
+    .about-us img {
+      width: 50%;
+    }
+    .about-us .info {
+      width: 50%;
+      padding: 0 20px;
+    }
+    /* Footer */
+    footer {
+      text-align: center;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Gallery Section -->
+  <section class="gallery">
+    <div class="gallery-item">
+      <img src="travel.png" alt="Image 1">
+    </div>
+    <div class="gallery-item">
+      <img src="travel2.png" alt="Image 2">
+    </div>
+    <div class="gallery-item">
+        <img src="travel3.png" alt="Image 3">
+      </div>
+    <!-- Add more gallery items as needed -->
+  </section>
+
+  <!-- About Us Section -->
+  <section class="about-us">
+    <div>
+      <img src="LOGO.png" alt="Company Image">
+    </div>
+    <div class="info">
+      <h2>About Us</h2>
+      <p>Route to Wander is a leading provider ofMeet over 1,300 MICE, Corporate, Leisure Buyers & 13,000 Travel Trade Delegates. Book your Stand today to meet MICE, Corporate and Leisure Buyers from Asia. Register a Booth Space. Get Trade Visitor pass. Register as a Speaker. Shows: MICE Show Asia, Travel Tech Asia, Route to Wander.</p>
+      <!-- Add more company information here -->
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <div>
+      Brand Name
+    </div>
+    <div>
+      <!-- Add social media icons, replace "#" with actual links -->
+      <a href="#"><img src="instagram_icon.png" alt="Instagram"></a>
+      <a href="#"><img src="facebook_icon.png" alt="Facebook"></a>
+      <!-- Add more social media icons as needed -->
+    </div>
+    <div>
+      &copy; 2024 All Rights Reserved
+    </div>
+  </footer>
+</body>
+</html>
